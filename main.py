@@ -15,7 +15,7 @@ def show_main_menu():
 
 
 def main():
-    file_name = "phone.txt"
+    file_name = "phone_book.txt"
     phone_book = read_data(file_name)
     while True:
         choice = show_main_menu()
